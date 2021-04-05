@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table - Introduction</title>
+</head>
+
+<style>
+
+    table{
+        width: 700px;
+        background-color: lightgoldenrodyellow;
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+
+    table, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 24px;
+    }
+
+    td, th{
+        padding: 16px;
+    }
+
+    #Lunch-Break{
+        text-align: center;
+    }
+</style>
+<body>
+    <!-- Table is enclosed by <Table> tag--> <!-- <tr> is Table row tag--> <!-- <td> is Table data tag--> <!-- <th> is Table header tag-->
+    <table>
+        <caption>Time-Table</caption>
+
+        <tr>
+            <td rowspan="7">Hours</td>
+        </tr>
+
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+            <td>Englist Lit</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Arts</td>
+            <td>English Lit</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" id="Lunch-Break">
+                Lunch Break
+            </td>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+            <td>Englist Lit</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Arts</td>
+            <td>English Lit</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Sports</td>
+        </tr>
+    </table>
+</body>
+</html>
